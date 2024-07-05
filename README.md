@@ -49,7 +49,7 @@ Developed to handle business logic operations, this AI model supports voice and 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/ai-voice-text-interaction-api.git
+   git clone https://github.com/elcaiseri/ai-voice-text-interaction-api.git
    cd ai-voice-text-interaction-api
    ```
 
