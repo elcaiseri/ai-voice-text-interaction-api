@@ -1,0 +1,16 @@
+flask
+fastapi==0.103.1
+uvicorn
+google-cloud-speech
+google-cloud-texttospeech
+spacy
+transformers
+pydantic==1.10.11
+python-multipart
+pytest
+requests
+pydub 
+speechrecognition 
+pyttsx3
+httpx
+gTTs

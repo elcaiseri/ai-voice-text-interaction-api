@@ -1,0 +1,9 @@
+notebooks
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.env
+.vscode
+.idea
+.DS_Store
