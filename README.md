@@ -11,6 +11,8 @@ This project is an AI model capable of understanding and responding to voice and
 - [Running the Application](#running-the-application)
 - [Docker Setup](#docker-setup)
 - [Testing the Application](#testing-the-application)
+- [Tasks In Progress](#tasks-in-progress)
+- [Next Steps](#next-steps)
 - [Project Structure](#project-structure)
 - [Contributing](#contributing)
 - [License](#license)
@@ -64,7 +66,7 @@ Developed to handle business logic operations, this AI model supports voice and 
    pip install -r requirements.txt
    ```
 
-### Running the Application
+## Running the Application
 
 1. Run the FastAPI server:
    ```bash
@@ -73,7 +75,7 @@ Developed to handle business logic operations, this AI model supports voice and 
 
 2. Access the application at `http://localhost:8000`.
 
-### Docker Setup
+## Docker Setup
 
 1. Build the Docker image:
    ```bash
@@ -104,6 +106,19 @@ Use the following `curl` command to test the `/api/text-input` endpoint:
 ```bash
 curl -X POST "http://localhost:8000/api/text-input" -H "Content-Type: application/json" -d '{"input": "How many items do I have in location X?"}'
 ```
+
+## Tasks In Progress
+1. Dynamic Data Handling
+   - Working on dynamic data responses for queries like item quantities.
+
+2. Advanced NLP Models
+   - Exploring advanced NLP models for better query handling.
+
+## Next Steps
+- Complete dynamic data handling.
+- Refine NLP models.
+- Further testing and debugging.
+- Prepare for final deployment.
 
 ## Project Structure
 
